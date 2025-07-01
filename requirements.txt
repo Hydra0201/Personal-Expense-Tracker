@@ -1,0 +1,6 @@
+Purpose: Lists all Python dependencies
+📌 Typical content:
+
+pandas
+matplotlib
+seaborn
