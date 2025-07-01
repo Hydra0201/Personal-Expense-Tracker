@@ -41,3 +41,20 @@ Creating basic visualizations
 
 Structuring a simple app with multiple functionalities
 
+## Project structure
+expense-tracker/
+│
+├── main.py                #  Entry point of the app
+├── expenses.py            #  Handles adding, reading, and saving expenses
+├── analyzer.py            #  Summarizes and analyzes expense data
+├── visualizer.py          #  Creates charts (bar, pie)
+├── utils.py               #  Helper functions (e.g., input validation)
+│
+├── data/
+│   └── expenses.csv       #  Stores all recorded expense entries
+│
+├── README.md              #  Project description and usage instructions
+└── requirements.txt       #  Python dependencies
+
+
+
