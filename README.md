@@ -41,21 +41,19 @@ Creating basic visualizations
 
 Structuring a simple app with multiple functionalities
 
-## Project structure
+## Project Structure
 
 expense-tracker/
+├── data/ # Folder to store CSV data
+│ └── expenses.csv # File that stores your expenses
 │
-├── main.py # Entry point of the app (menu & user flow)
-├── expenses.py # Handles adding and loading expense data
-├── analyzer.py # Summarizes expenses by category/date
-├── visualizer.py # Generates charts from expense data
-├── utils.py # Helper functions (e.g., input validation)
+├── main.py # Main menu and user interaction
+├── expenses.py # Add, load, and manage expense data
+├── analyzer.py # Functions for analyzing expenses
+├── visualizer.py # Plotting charts using matplotlib
+├── utils.py # Input validation and helper functions
 │
-├── data/
-│ └── expenses.csv # Expense records stored as CSV
-│
-├── README.md # This file!
-├── requirements.txt # List of Python libraries used
-└── LICENSE # Optional: MIT license
-
+├── README.md # Project overview and documentation
+├── requirements.txt # Python dependencies
+└── LICENSE # Project license (optional)
 
