@@ -43,17 +43,19 @@ Structuring a simple app with multiple functionalities
 
 ## Project Structure
 
+```
 expense-tracker/
-├── data/ # Folder to store CSV data
-│ └── expenses.csv # File that stores your expenses
+├── data/                      # Folder to store CSV data
+│   └── expenses.csv           # File that stores your expenses
 │
-├── main.py # Main menu and user interaction
-├── expenses.py # Add, load, and manage expense data
-├── analyzer.py # Functions for analyzing expenses
-├── visualizer.py # Plotting charts using matplotlib
-├── utils.py # Input validation and helper functions
+├── main.py                    # Main menu and user interaction
+├── expenses.py                # Add, load, and manage expense data
+├── analyzer.py                # Functions for analyzing expenses
+├── visualizer.py              # Plotting charts using matplotlib
+├── utils.py                   # Input validation and helper functions
 │
-├── README.md # Project overview and documentation
-├── requirements.txt # Python dependencies
-└── LICENSE # Project license (optional)
+├── README.md                  # Project overview and documentation
+├── requirements.txt           # Python dependencies
+└── LICENSE                    # Project license (optional)
+```
 
